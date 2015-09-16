@@ -17,6 +17,11 @@ html {
     box-sizing: inherit;
 }
 
+body {
+    padding: 0;
+    margin: 0;
+}
+
 .banner {
     padding: 0;
     margin: 0;
