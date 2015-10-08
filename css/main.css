@@ -143,14 +143,7 @@ footer {
 }
 
 @media only screen and (min-width: 30em) /* LANDSCAPE - MOBILE */ {
-   
-   h1 {
-    font-family: 'Pacifico', cursive;
-    text-align: center;
-    font-size: 40px;
-    font-weight: 200;
-    color: #1fb296;
-} 
+ 
     
 }
 
