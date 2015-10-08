@@ -32,9 +32,10 @@ body {
 
 .nav a {
     text-decoration: none;
+    list-style-type: none;
     color: black;
     display: block;
-    text-align: center;
+    text-align: left;
 }
 
 .banner {
@@ -69,6 +70,15 @@ p {
     padding-right: 2em;
 }
 
+.portfolio {
+    margin: none;
+}
+
+.piece {
+    width: 100%;
+    margin: none;
+}
+
 footer {
     text-align: center;
     margin: auto 0;
@@ -80,4 +90,21 @@ footer {
     padding-top: 20px;
     padding-bottom: 10px;
 }
+
+@media only screen and (min-width: 48em) /* TABLET */ {
+    
+    .piece {
+        width: 50.0000%;
+        display: inline-block;
+        float: left;
+    }
+}
+
+@media only screen and (min-width: 72em) /* DESKTOP */ {
+    
+    .piece {
+        width: 33.3333%;
+        display: inline-block;
+        float: left;
+    }
 
