@@ -67,6 +67,7 @@ body {
 .nav li {
     text-transform: uppercase;
     letter-spacing: .2em;
+    font-size: 1.2em;
     display: inline-block;
     text-decoration: none;
     padding-top: 1.1em;
@@ -145,6 +146,10 @@ footer {
     margin: 10px;
     padding-top: 80px;
     padding-bottom: 10px;
+    text-decoration: none;
+}
+
+a {
     text-decoration: none;
 }
 
