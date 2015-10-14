@@ -59,7 +59,7 @@ body {
 
 .nav {
     list-style-type: none;
-    text-align: right;
+    text-align: left;
     position: absolute;
     right: 0em;
 }
@@ -72,7 +72,6 @@ body {
     text-decoration: none;
     padding-top: 1.1em;
     padding-right: 1.5em;
-    margin: 0 auto;
 }
 
 .nav a,
@@ -163,6 +162,7 @@ a {
         padding-right: 1em;
         padding-bottom: 100px;
 }
+    
  
     
 }
