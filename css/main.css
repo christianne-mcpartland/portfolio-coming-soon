@@ -48,6 +48,15 @@ body {
     top: 0;
 }
 
+.toggle {
+    position: absolute;
+    height: 2.25em;
+    margin-top: 1.75em;
+    margin-right: 1.75em;
+    right: 0em;
+    opacity: 60%;
+}
+
 .nav {
     list-style-type: none;
     text-align: right;
@@ -136,6 +145,7 @@ footer {
     margin: 10px;
     padding-top: 80px;
     padding-bottom: 10px;
+    text-decoration: none;
 }
 
 @media only screen and (min-width: 30em) /* LANDSCAPE - MOBILE */ {
@@ -154,14 +164,6 @@ footer {
 
 @media only screen and (min-width: 48em) /* TABLET */ {
     
-    .description {
-    text-align: center;
-    font-size: 25px;
-    font-weight: 300;
-    padding-left: 12em;
-    padding-right: 12em;
-    padding-bottom: 100px;
-}
     
     .piece {
         width: 50.0000%;
@@ -171,6 +173,15 @@ footer {
 }
 
 @media only screen and (min-width: 72em) /* DESKTOP */ {
+    
+    .description {
+        text-align: center;
+        font-size: 25px;
+        font-weight: 300;
+        padding-left: 12em;
+        padding-right: 12em;
+        padding-bottom: 100px;
+    }
     
     .piece {
         width: 33.3333%;
